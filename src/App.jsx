@@ -5,7 +5,7 @@ import Inicio from "./pages/Inicio";
 
 const App = () => {
 
-  const [color] = useState("#eb568f")
+  const [color] = useState("#ebddff")
   document.body.style.backgroundColor = color
 
   return (
@@ -15,5 +15,4 @@ const App = () => {
     </Routes>
   )
 }
-
 export default App
